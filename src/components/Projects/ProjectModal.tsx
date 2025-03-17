@@ -58,7 +58,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
           exit={{ opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.3 }}
           className="bg-card-dark rounded-lg overflow-hidden max-w-4xl w-full max-h-[90vh] overflow-y-auto card-gradient shadow-xl"
-          onClick={(e) => e.stopPropagation()}
+          onClick={(e: React.MouseEvent<HTMLDivElement>) => e.stopPropagation()}
         >
           <div className="relative h-64 sm:h-80">
             <Image
