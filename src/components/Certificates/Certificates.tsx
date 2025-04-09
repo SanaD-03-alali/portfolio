@@ -24,71 +24,95 @@ const Certificates: React.FC = () => {
       id: 1,
       title: "Hyperparameter Optimization for Machine Learning",
       issuer: "Udemy",
-      date: "January 2025",
+      date: "February 2025",
       image: "/images/udemy.png",
       year: 2025
     },
     {
       id: 2,
-      title: "A Deep Understanding of Deep Learning",
+      title: "Microsoft Excel - Beginner to Advanced",
       issuer: "Udemy",
-      date: "March 2024",
+      date: "April 2025",
+      image: "/images/udemy.png",
+      year: 2025
+    },
+    {
+      id: 3,
+      title: "Introduction to Microsoft Power BI",
+      issuer: "Udemy",
+      date: "November 2024",
       image: "/images/udemy.png",
       year: 2024
     },
     {
-      id: 3,
-      title: "Machine Learning Specialization",
-      issuer: "Coursera",
-      date: "February 2024",
-      image: "/images/coursera.png",
-      year: 2024
-    },
-    {
       id: 4,
-      title: "Feature Engineering for Machine Learning",
+      title: "A Deep Understanding of Deep Learning",
       issuer: "Udemy",
-      date: "April 2024",
+      date: "August 2024",
       image: "/images/udemy.png",
       year: 2024
     },
     {
       id: 5,
-      title: "Feature Selection for Machine Learning",
-      issuer: "Udemy",
-      date: "April 2024",
-      image: "/images/udemy.png",
+      title: "Machine Learning Specialization",
+      issuer: "Coursera",
+      date: "March 2024",
+      image: "/images/coursera.png",
       year: 2024
     },
     {
       id: 6,
-      title: "Flutter & Dart - The Complete Guide",
+      title: "Feature Engineering for Machine Learning",
       issuer: "Udemy",
-      date: "May 2024",
+      date: "September 2024",
       image: "/images/udemy.png",
       year: 2024
     },
     {
       id: 7,
-      title: "R Programming",
+      title: "Feature Selection for Machine Learning",
       issuer: "Udemy",
-      date: "June 2024",
+      date: "September 2024",
       image: "/images/udemy.png",
       year: 2024
     },
     {
       id: 8,
+      title: "Flutter & Dart - The Complete Guide",
+      issuer: "Udemy",
+      date: "July 2024",
+      image: "/images/udemy.png",
+      year: 2024
+    },
+    {
+      id: 9,
+      title: "R Programming",
+      issuer: "Udemy",
+      date: "October 2024",
+      image: "/images/udemy.png",
+      year: 2024
+    },
+    {
+      id: 10,
+      title: "Tableau 2024 A-Z",
+      issuer: "Udemy",
+      date: "January 2024",
+      image: "/images/udemy.png",
+      year: 2024
+    },
+    {
+      id: 11,
       title: "Data Analyst with Python",
       issuer: "DataCamp",
-      date: "July 2023",
+      date: "March 2023",
       image: "/images/datacamp.png",
       year: 2023
     },
     {
-      id: 9,
-      title: "Associate Data Scientist in Python",
+      id: 12,
+      title: "Data Scientist with Python",
       issuer: "DataCamp",
-      date: "August 2023",
+      date: "June 2023",
       image: "/images/datacamp.png",
       year: 2023
     }

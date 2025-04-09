@@ -126,13 +126,13 @@ const Hero: React.FC = () => {
                     <FaMedal className="text-[#CD7F32] text-xl" />
                     <h4 className="text-lg font-semibold text-text">5 Bronze Medals</h4>
                   </div>
-                  <p className="text-text/70 text-center text-sm">Recognized for high-quality notebooks</p>
+                  <p className="text-text/70 text-center text-sm">From 9 quality notebooks</p>
                 </div>
                 
                 <div className="bg-card-dark/50 rounded-lg p-5 flex flex-col items-center">
                   <div className="flex items-center gap-2 mb-3">
                     <FaBook className="text-accent text-xl" />
-                    <h4 className="text-lg font-semibold text-text">8 Notebooks</h4>
+                    <h4 className="text-lg font-semibold text-text">9 Notebooks</h4>
                   </div>
                   <p className="text-text/70 text-center text-sm">Sharing insights and analyses</p>
                 </div>
@@ -140,21 +140,22 @@ const Hero: React.FC = () => {
                 <div className="bg-card-dark/50 rounded-lg p-5 flex flex-col items-center">
                   <div className="flex items-center gap-2 mb-3">
                     <FaTable className="text-secondary text-xl" />
-                    <h4 className="text-lg font-semibold text-text">3 Datasets</h4>
+                    <h4 className="text-lg font-semibold text-text">4 Datasets</h4>
                   </div>
-                  <p className="text-text/70 text-center text-sm">With 2 bronze medals</p>
+                  <p className="text-text/70 text-center text-sm">With 3 bronze medals</p>
                 </div>
               </div>
               
               <div className="flex justify-center">
-                <Link
-                  href="https://www.kaggle.com/sanadalali"
-                  target="_blank"
-                  className="bg-[#20BEFF]/10 hover:bg-[#20BEFF]/20 rounded-lg px-5 py-3 inline-flex items-center transition-colors duration-300"
-                >
-                  <span className="text-text font-medium mr-2">Notebooks Expert</span>
-                  <SiKaggle className="text-[#20BEFF]" />
-                </Link>
+                <div className="bg-[#20BEFF]/10 rounded-lg p-5 flex flex-col items-center w-full max-w-md transform hover:scale-105 transition-transform duration-300">
+                  <div className="flex items-center gap-3 mb-3">
+                    <SiKaggle className="text-[#20BEFF] text-2xl" />
+                    <h4 className="text-xl font-bold text-text">Kaggle Expert</h4>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-text/70">Recognized for expertise in notebooks and datasets</span>
+                  </div>
+                </div>
               </div>
             </div>
           </motion.div>
