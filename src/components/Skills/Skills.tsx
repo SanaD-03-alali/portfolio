@@ -62,7 +62,7 @@ const Skills: React.FC = () => {
       title: 'Database Management',
       icon: <FiDatabase className="h-6 w-6 text-accent" />,
       skills: [
-        { name: 'SQL', color: 'bg-blue-600' },
+        { name: 'SQL', color: 'bg-blue-600' }
       ]
     },
     {
