@@ -50,6 +50,7 @@ const Skills: React.FC = () => {
       icon: <FiBarChart2 className="h-6 w-6 text-accent" />,
       skills: [
         { name: 'Power BI', color: 'bg-yellow-500' },
+        { name: 'Excel', color: 'bg-green-500' },
         { name: 'Tableau', color: 'bg-blue-500' },
         { name: 'ggplot2', color: 'bg-green-600' },
         { name: 'Matplotlib', color: 'bg-blue-600' },
@@ -58,6 +59,14 @@ const Skills: React.FC = () => {
     },
     {
       id: 4,
+      title: 'Database Management',
+      icon: <FiDatabase className="h-6 w-6 text-accent" />,
+      skills: [
+        { name: 'SQL', color: 'bg-blue-600' },
+      ]
+    },
+    {
+      id: 5,
       title: 'Frameworks & Libraries',
       icon: <FiLayers className="h-6 w-6 text-accent" />,
       skills: [
@@ -69,7 +78,7 @@ const Skills: React.FC = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: 'App Development',
       icon: <FiSmartphone className="h-6 w-6 text-accent" />,
       skills: [
