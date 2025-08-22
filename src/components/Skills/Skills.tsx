@@ -42,6 +42,7 @@ const Skills: React.FC = () => {
         { name: 'Feature Engineering', color: 'bg-indigo-800' },
         { name: 'Feature Selection', color: 'bg-violet-600' },
         { name: 'Hyperparameter Optimization', color: 'bg-violet-800' },
+        { name: 'Git & GitHub', color: 'bg-orange-600' },
       ]
     },
     {

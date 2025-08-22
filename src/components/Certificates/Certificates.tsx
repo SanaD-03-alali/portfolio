@@ -37,6 +37,14 @@ const Certificates: React.FC = () => {
       year: 2025
     },
     {
+      id: 13,
+      title: "The Git & GitHub Bootcamp",
+      issuer: "Udemy",
+      date: "August 2025",
+      image: "/images/udemy.png",
+      year: 2025
+    },
+    {
       id: 3,
       title: "Introduction to Microsoft Power BI",
       issuer: "Udemy",
