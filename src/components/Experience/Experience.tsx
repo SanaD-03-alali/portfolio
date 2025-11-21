@@ -4,12 +4,12 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import {
-  FiBriefcase,
-  FiCalendar,
-  FiMapPin,
-  FiDatabase,
-  FiCheckCircle
-} from 'react-icons/fi';
+  FaBriefcase,
+  FaCalendarAlt,
+  FaMapMarkerAlt,
+  FaDatabase,
+  FaCheckCircle
+} from 'react-icons/fa';
 import SectionTitle from '../SectionTitle/SectionTitle';
 import BackgroundShapes from '../BackgroundShapes/BackgroundShapes';
 
@@ -19,19 +19,19 @@ const Experience: React.FC = () => {
       id: 1,
       label: 'Duration',
       value: 'July 2025 – Present (Full-Time)',
-      icon: <FiCalendar className="text-accent" />
+      icon: <FaCalendarAlt className="text-accent" />
     },
     {
       id: 2,
       label: 'Location',
       value: 'Amman, Jordan',
-      icon: <FiMapPin className="text-accent" />
+      icon: <FaMapMarkerAlt className="text-accent" />
     },
     {
       id: 3,
       label: 'Tech Focus',
       value: 'Crystal Reports · SQL · SAP HANA',
-      icon: <FiDatabase className="text-accent" />
+      icon: <FaDatabase className="text-accent" />
     }
   ];
 
@@ -51,7 +51,7 @@ const Experience: React.FC = () => {
         <SectionTitle
           title="Professional Experience"
           subtitle="Current role responsibilities and impact delivering data-driven solutions."
-          icon={<FiBriefcase />}
+          icon={<FaBriefcase />}
           accent="Experience"
         />
 
@@ -122,13 +122,13 @@ const Experience: React.FC = () => {
               className="bg-gradient-to-br from-secondary/10 via-transparent to-accent/10 rounded-2xl p-6 border border-accent/20"
             >
               <h4 className="text-xl font-semibold text-text mb-4 flex items-center gap-2">
-                <FiBriefcase className="text-accent" />
+                <FaBriefcase className="text-accent" />
                 Key Contributions
               </h4>
               <ul className="space-y-4">
                 {contributions.map((item) => (
                   <li key={item} className="flex gap-3 text-text/90">
-                    <FiCheckCircle className="text-accent mt-1 flex-shrink-0" />
+                    <FaCheckCircle className="text-accent mt-1 flex-shrink-0" />
                     <span>{item}</span>
                   </li>
                 ))}
