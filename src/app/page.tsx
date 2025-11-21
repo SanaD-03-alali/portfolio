@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar/Navbar';
 import Hero from '@/components/Hero/Hero';
+import Experience from '@/components/Experience/Experience';
 import Projects from '@/components/Projects/Projects';
 import Skills from '@/components/Skills/Skills';
 import Certificates from '@/components/Certificates/Certificates';
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-primary text-text">
       <Navbar />
       <Hero />
+      <Experience />
       <Projects />
       <Skills />
       <Certificates />

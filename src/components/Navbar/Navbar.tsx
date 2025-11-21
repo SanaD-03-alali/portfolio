@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaHome, FaUser, FaCode, FaProjectDiagram, FaCertificate, FaEnvelope, FaFileDownload } from 'react-icons/fa';
+import { FaHome, FaCode, FaProjectDiagram, FaCertificate, FaEnvelope, FaFileDownload, FaBriefcase } from 'react-icons/fa';
 import Link from 'next/link';
 
 const Navbar: React.FC = () => {
@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
       setIsScrolled(window.scrollY > 0);
       
       // Determine active section based on scroll position
-      const sections = ['home', 'skills', 'projects', 'certificates', 'contact'];
+      const sections = ['home', 'experience', 'projects', 'skills', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 100; // Offset to trigger slightly before reaching section
       
       for (const section of sections) {
@@ -37,6 +37,7 @@ const Navbar: React.FC = () => {
   
   const navItems = [
     { name: 'Home', href: '#home', icon: <FaHome className="text-lg" /> },
+    { name: 'Experience', href: '#experience', icon: <FaBriefcase className="text-lg" /> },
     { name: 'Projects', href: '#projects', icon: <FaProjectDiagram className="text-lg" /> },
     { name: 'Skills', href: '#skills', icon: <FaCode className="text-lg" /> },
     { name: 'Certificates', href: '#certificates', icon: <FaCertificate className="text-lg" /> },
